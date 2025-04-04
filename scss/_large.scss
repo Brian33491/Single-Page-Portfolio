@@ -26,7 +26,7 @@ nav li:hover {
     transform: translateX(5px);
 }
 
-/* Nav links */
+
 nav a {
     display: flex;
     align-items: center;
@@ -46,14 +46,14 @@ nav li:hover img {
     transform: scale(1.1);
 }
 
-/* Show text alongside icons */
+
 nav span {
     display: inline-block !important;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
 
-/* Scrollbar styling (optional) */
+
 nav ul::-webkit-scrollbar {
     width: 6px;
 }
