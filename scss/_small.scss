@@ -38,7 +38,9 @@ header {
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper{
-    background-color: $secondaryColor;
+    background-color: $menuColor;
+    position: sticky;
+    top: 0;
 }
 nav{
     ul{
@@ -50,7 +52,7 @@ nav{
             flex: 1;
         }
         li.active{
-            background-color: black;
+            background-color: darken($menuColor,10%);
         }
     
         a{
@@ -62,7 +64,7 @@ nav{
             img{ width: 25px;}
             span{display: none;}
             &:hover{
-                background-color: $primaryColor;
+                background-color: lighten($menuColor,10%);
             }
         }
     }

@@ -339,7 +339,9 @@ header span {
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
-  background-color: #7c1d47;
+  background-color: green;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -352,7 +354,7 @@ nav ul li {
   flex: 1;
 }
 nav ul li.active {
-  background-color: black;
+  background-color: #004d00;
 }
 nav ul a {
   display: block;
@@ -368,7 +370,7 @@ nav ul a span {
   display: none;
 }
 nav ul a:hover {
-  background-color: #1d295f;
+  background-color: #00b300;
 }
 
 section {
@@ -406,6 +408,18 @@ footer a {
 
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
+  #headWrapper header {
+    padding: 2rem 10px;
+  }
+  #headWrapper h1 {
+    font-size: 2rem;
+  }
+  nav ul a img {
+    display: none;
+  }
+  nav ul a span {
+    display: block;
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
