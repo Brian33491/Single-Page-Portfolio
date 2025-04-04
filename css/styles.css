@@ -386,7 +386,7 @@ section {
 
 #red {
   background-color: #ff4757;
-  color: #333;
+  color: white;
 }
 
 #green {
@@ -407,6 +407,49 @@ section {
 #blue {
   background-color: #1e90ff;
   color: #333;
+}
+
+/* Red Section */
+#red h2,
+#red p {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Green Section */
+#green h2 {
+  color: #1a3e1a;
+}
+
+#green p {
+  color: #0d2b0d;
+}
+
+/* Purple Section */
+#purple h2 {
+  color: #f8f1ff;
+}
+
+#purple p {
+  color: #e8e1ff;
+}
+
+/* Orange Section */
+#orange h2 {
+  color: #5c2c00;
+}
+
+#orange p {
+  color: #4c2c10;
+}
+
+/* Blue Section */
+#blue h2 {
+  color: #e6f2ff;
+}
+
+#blue p {
+  color: #d6e9ff;
 }
 
 /* ==================== SECTION LAYOUT ENHANCEMENTS ==================== */
