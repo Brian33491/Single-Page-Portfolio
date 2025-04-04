@@ -385,27 +385,27 @@ section {
 }
 
 #red {
-  background-color: #ff4757;
+  background-color: #a71824;
   color: white;
 }
 
 #green {
-  background-color: #2ed573;
-  color: #333;
+  background-color: #186b3a;
+  color: #ffffff;
 }
 
 #purple {
-  background-color: #6c5ce7;
+  background-color: #6e277c;
   color: #333;
 }
 
 #orange {
-  background-color: #ff7f50;
+  background-color: #c06905;
   color: #333;
 }
 
 #blue {
-  background-color: #1e90ff;
+  background-color: #0c4e91;
   color: #333;
 }
 
@@ -418,11 +418,11 @@ section {
 
 /* Green Section */
 #green h2 {
-  color: #1a3e1a;
+  color: #ffffff;
 }
 
 #green p {
-  color: #0d2b0d;
+  color: #ffffff;
 }
 
 /* Purple Section */
@@ -436,11 +436,11 @@ section {
 
 /* Orange Section */
 #orange h2 {
-  color: #5c2c00;
+  color: #ffffff;
 }
 
 #orange p {
-  color: #4c2c10;
+  color: #ffffff;
 }
 
 /* Blue Section */
