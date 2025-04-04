@@ -338,6 +338,10 @@ header span {
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+#navWrapper {
+  background-color: #7c1d47;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -356,6 +360,12 @@ nav ul a {
   padding: 0.75rem;
   color: white;
   text-decoration: none;
+}
+nav ul a img {
+  width: 25px;
+}
+nav ul a span {
+  display: none;
 }
 nav ul a:hover {
   background-color: #1d295f;
